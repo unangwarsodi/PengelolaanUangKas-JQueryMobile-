@@ -1,0 +1,64 @@
+#content{
+	background:#FFFFFF;
+	font:14px "Calibri";
+	width:97%;
+	height:auto;
+	padding: 18px;
+	margin-top:2%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius:6px 6px 6px 6px;
+	box-shadow: 1px 1px 1px 1px #D0D0D0;
+}
+.kotak{
+	margin: 20px auto;
+	background: #1ABC9C;
+	width: 900px;
+	padding: 20px 50px 50px 50px;
+	border-radius: 3px;
+}
+/* Left transition */
+li.left {
+    -webkit-transition: -webkit-transform 250ms ease;
+    -webkit-transform: translateX(-100%);
+    -moz-transition: -moz-transform 250ms ease;
+    -moz-transform: translateX(-100%);
+    -o-transition: -o-transform 250ms ease;
+    -o-transform: translateX(-100%);
+    transition: transform 250ms ease;
+    transform: translateX(-100%);
+}
+/* Right transition */
+li.right {
+    -webkit-transition: -webkit-transform 250ms ease;
+    -webkit-transform: translateX(100%);
+    -moz-transition: -moz-transform 250ms ease;
+    -moz-transform: translateX(100%);
+    -o-transition: -o-transform 250ms ease;
+    -o-transform: translateX(100%);
+    transition: transform 250ms ease;
+    transform: translateX(100%);
+}
+/* Border bottom for the previous button during the transition*/
+li.left a.ui-btn,
+li.right a.ui-btn {
+    border-top-width: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+li a.ui-btn.border-bottom {
+    border-bottom-width: 1px;
+}
+/* Hide the delete button on touch devices */
+ul.touch li.ui-li-has-alt a.delete {
+    display: none;
+}
+ul.touch li.ui-li-has-alt a.ui-btn {
+    margin-right:0;
+}
+/* Styling for the popup */
+#confirm p {
+    text-align: center;
+    font-size: inherit;
+    margin-bottom: .75em;
+}

@@ -1,0 +1,5 @@
+CARA PENGGUNAAN APLIKASI PENGELOLAAN UANG KAS
+1.import dulu databasesnya
+2. kemudian seting di foder koneksi, lalu file koneksi.php dan setting passwordnya sesuai password server anda
+3. kemudian buka di browser
+4. silahkan klik icon gir di sebelah kanan untuk login. lalu login dengan username : rplb dan password : rplb
